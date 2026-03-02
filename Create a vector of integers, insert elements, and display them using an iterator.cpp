@@ -7,15 +7,15 @@ int main()
     vector<int> integers={10,20,30};
     cout<<"Integers before inserting:"<<endl;
     vector<int>::iterator i;
-    for(i=integer.begin();i!=integer.end();i++){
-        cout<<i<<" ";
+    for( i=integers.begin();i!=integers.end();i++){
+        cout<<*i<<" ";
     }
     cout<<" "<<endl;
     integers.push_back(40);
    
     cout<<"Integers after inserting:"<<endl;
-    for(i=integer.begin();i!=integer.end();i++){
-        cout<<i<<" ";
+    for( i=integers.begin();i!=integers.end();i++){
+        cout<<*i<<" ";
     }
 
     return 0;
